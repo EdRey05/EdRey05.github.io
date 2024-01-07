@@ -1,12 +1,5 @@
 {::options parse_block_html="true" /}
 
-# Eduardo Reyes Alvarez
-
-## About me
-* **Ph.D. Biomedical Sciences** (Sept, 2023) - Queen's University (Ontario, Canada).
-* **B.Sc. Chemistry** (May 2016) - Tecnológico de Monterrey (Nuevo León, Mexico)
-<hr style="margin-top: +2px; margin-bottom: +2px; border-width: 5px;">
-
 # Data Science Portfolio
 
 ## Interactive extraction of cell lines of interest
