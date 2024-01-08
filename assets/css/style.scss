@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+details > summary {
+  cursor: pointer;
+  color: #0366d6; /* GitHub's link color for consistency */
+}
+
+details > summary::before {
+  content: '▶▶';
+  padding-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
