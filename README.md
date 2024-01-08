@@ -1,4 +1,4 @@
-
+{::options parse_block_html="true" /}
 # Data Science Portfolio
 
 <details>
