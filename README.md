@@ -1,6 +1,10 @@
-{::options parse_block_html="true" /}
 
 # Data Science Portfolio
+
+<details>
+<summary>Click to expand!</summary>
+![](https://github.com/EdRey05/EdRey05.github.io/blob/main/Images_GIFs_Videos/Streamlit_Projects_001_V07.gif)
+</details>
 
 ## Interactive extraction of cell lines of interest
 
@@ -18,7 +22,7 @@ C
 
 ![](https://github.com/EdRey05/EdRey05.github.io/blob/main/Images_GIFs_Videos/Streamlit_Projects_001_V07.gif)
 
-**Read the instructions and watch another demo here:** ![Demo_001](https://github.com/EdRey05/Streamlit_projects/tree/main/001_RNA_expression_DepMap)
+**Read the instructions and watch another demo here:** [Demo_001](https://github.com/EdRey05/Streamlit_projects/tree/main/001_RNA_expression_DepMap)
 <hr style="margin-top: +2px; margin-bottom: +2px; border-width: 5px;">
 
 ## Automated generation of Power Point presentations for PLA results
@@ -37,7 +41,7 @@ C
 
 ![]()
 
-**Read the instructions and watch another demo here:** ![Demo_002](https://github.com/EdRey05/Streamlit_projects/tree/main/002_Automated_PPTX_PLA)
+**Read the instructions and watch another demo here:** [Demo_002](https://github.com/EdRey05/Streamlit_projects/tree/main/002_Automated_PPTX_PLA)
 <hr style="margin-top: +2px; margin-bottom: +2px; border-width: 5px;">
 
 ## Interactive generation of Kaplan-Meier survival plots
@@ -56,7 +60,7 @@ C
 
 ![]()
 
-**Read the instructions and watch another demo here:** ![Demo_003](https://github.com/EdRey05/Streamlit_projects/tree/main/003_KM_plotter)
+**Read the instructions and watch another demo here:** [Demo_003](https://github.com/EdRey05/Streamlit_projects/tree/main/003_KM_plotter)
 <hr style="margin-top: +2px; margin-bottom: +2px; border-width: 5px;">
 
 ## More about my work
