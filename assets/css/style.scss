@@ -5,10 +5,39 @@
 
 // Overriding container width to use more of the viewport width
 .main-content {
-  max-width: 97%;  // Use a higher percentage to use more width
+  max-width: 100%;  // Use a higher percentage to use more width
   margin: auto;    // Center the content
 }
 
+// Styles for two-column layout
+.two-columns {
+  display: flex;
+  width: 100%;
+}
+
+.left-column {
+  flex: 35%;
+  padding-right: 10px; // Adjust spacing as needed
+}
+
+.right-column {
+  flex: 65%;
+}
+
+// Ensure full-width sections are not affected
+details > summary {
+  width: 100%;
+}
+
+// Responsive adjustments for smaller screens
+@media screen and (max-width: 768px) {
+  .two-columns, .left-column, .right-column {
+    flex-direction: column;
+    flex: 100%;
+  }
+}
+
+// Make the expandable sections work
 details > summary {
   cursor: pointer;
   color: #0366d6; /* GitHub's link color for consistency */
@@ -24,30 +53,12 @@ details[open] > summary::before {
   transform: rotate(90deg);
 }
 
-// Styles for two-column layout
-.two-columns {
-  display: flex;
-  width: 100%;
+// Justify text for elements with the 'justify-text' class
+.justify-text {
+  text-align: justify;
 }
 
-.left-column {
-  flex: 40%;
-  padding-right: 10px; // Adjust spacing as needed
-}
-
-.right-column {
-  flex: 60%;
-}
-
-// Ensure full-width sections are not affected
-details > summary {
-  width: 100%;
-}
-
-// Responsive adjustments for smaller screens
-@media screen and (max-width: 768px) {
-  .two-columns, .left-column, .right-column {
-    flex-direction: column;
-    flex: 100%;
-  }
+// Center text for elements with the 'center-text' class
+.center-text {
+  text-align: center;
 }
