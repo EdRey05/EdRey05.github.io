@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+// Overriding container width to use more of the viewport width
+.main-content {
+  max-width: 97%;  // Use a higher percentage to use more width
+  margin: auto;    // Center the content
+}
+
 details > summary {
   cursor: pointer;
   color: #0366d6; /* GitHub's link color for consistency */
@@ -25,12 +31,12 @@ details[open] > summary::before {
 }
 
 .left-column {
-  flex: 30%;
-  padding-right: 20px; // Adjust spacing as needed
+  flex: 40%;
+  padding-right: 10px; // Adjust spacing as needed
 }
 
 .right-column {
-  flex: 70%;
+  flex: 60%;
 }
 
 // Ensure full-width sections are not affected
