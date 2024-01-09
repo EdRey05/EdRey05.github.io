@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+@include large {
+  .page-header {
+    padding: 4rem 6rem; // Reduced the top and bottom padding to 2rem
+  }
+}
+
 // Overriding container width to use more of the viewport width
 .main-content {
   max-width: 100%;  // Use a higher percentage to use more width
