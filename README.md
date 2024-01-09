@@ -1,4 +1,3 @@
-{::options parse_block_html="true" /}
 <h1> Data Science Portfolio </h1> 
 
 <div class="two-columns">
