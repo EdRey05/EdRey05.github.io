@@ -1,15 +1,14 @@
 {::options parse_block_html="true" /}
-# Data Science Portfolio
+<h1> Data Science Portfolio </h1> 
 
 <div class="two-columns">
   <div class="left-column">
-    ## Interactive extraction of gene expression data from the CCLE/DepMap database
-    **Summary** 
-    More than **1,800 cancer cell lines** have had genomics, proteomics, and metabolomics data measured as part of the CCLE/DepMap project. During my graduate studies, I searched for suitable cell models or compared various models in thyroid, breast, and pancreatic cancers using the **gene expression** (RNA Seq) dataset, which contains approximately **20,000 genes**. Since we frequently used <10 for our research and the datasets are updated frequently (two to three times a year), I created tools to automate the extraction of the cell lines of interest from the database (Jupyter/Colab Notebooks and Streamlit app).
+    <h2> Interactive extraction of gene expression data from the CCLE/DepMap database </h2>
+    <p><strong> Summary </strong></p>
+    <p> More than <strong>1,800 cancer cell lines</strong> have had genomics, proteomics, and metabolomics data measured as part of the CCLE/DepMap project. During my graduate studies, I searched for suitable cell models or compared various models in thyroid, breast, and pancreatic cancers using the <strong>gene expression</strong> (RNA Seq) dataset, which contains approximately <strong>20,000 genes</strong>. Since we frequently used less than 10 for our research and the datasets are updated frequently (two to three times a year), I created tools to automate the extraction of the cell lines of interest from the database (Jupyter/Colab Notebooks and Streamlit app). </p>
   </div>
-     
   <div class="right-column">
-    ![](Images_GIFs_Videos/Streamlit_Projects_001_V07.gif)
+    <img src="Images_GIFs_Videos/Streamlit_Projects_001_V07.gif" alt="Streamlit Projects GIF" />
   </div>
 </div>
      
