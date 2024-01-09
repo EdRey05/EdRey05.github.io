@@ -17,3 +17,31 @@ details > summary::before {
 details[open] > summary::before {
   transform: rotate(90deg);
 }
+
+// Styles for two-column layout
+.two-columns {
+  display: flex;
+  width: 100%;
+}
+
+.left-column {
+  flex: 30%;
+  padding-right: 20px; // Adjust spacing as needed
+}
+
+.right-column {
+  flex: 70%;
+}
+
+// Ensure full-width sections are not affected
+details > summary {
+  width: 100%;
+}
+
+// Responsive adjustments for smaller screens
+@media screen and (max-width: 768px) {
+  .two-columns, .left-column, .right-column {
+    flex-direction: column;
+    flex: 100%;
+  }
+}
