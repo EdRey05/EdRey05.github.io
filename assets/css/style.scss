@@ -1,6 +1,11 @@
 ---
 ---
 
+// Define your custom variable values here, before importing the theme's styles
+$header-bg-color: #C30000 !default;
+$header-bg-color-secondary: #3845bd !default;
+$section-headings-color: #C30000 !default;
+
 @import "{{ site.theme }}";
 
 @include large {
