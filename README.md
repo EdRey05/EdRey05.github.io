@@ -189,13 +189,13 @@
   </ol>
   <div class="two-columns">
       <div class="left-column-50">
-          <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/25da16e5-a2da-4682-a921-7ad4680f17e9" alt="CRK Box plot" />
+          <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/ed47074f-fffc-40c7-a2f8-2d96a284baf8" alt="CRK Box plot" />
       </div>
       <div class="right-column-50">
           <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/22983a74-0c9b-495a-941c-7d2f89fb71f2" alt="CRK cell images" />
       </div>
   </div>
-  <br>  
+  <br>
   <p><strong> Check the Github page showcasing some of the scripts mentioned here: <a href="https://edrey05.github.io/Resources_for_Mulligan_Lab/">PLA ImageJ scripts</a></strong></p>
   <p><strong> Check the Streamlit data app I made here: <a href="https://github.com/EdRey05/Streamlit_projects/tree/main/002_Automated_PPTX_PLA">Demo_PLA_PPTX</a></strong></p>
 </details>
