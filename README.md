@@ -116,7 +116,6 @@
   </p>
   <div class="two-columns">
     <div class="left-column-35">
-      <br>
       <p class="justify-text"> Here I illustrate the workflow I generated (→), including the extra steps required due to the <strong>large 
                               number of images</strong> that I acquired with the EVOS imager. <br><br>
                               However, that brought several <strong>complications </strong> since my lab used to -mostly- do <strong>manual 
@@ -170,32 +169,33 @@
           </ul>
       </div>
   </div>
-  <div class="two-columns">
-      <div class="left-column-50">
-          <p class="justify-text"><strong> Results </strong></p>
-            <ol> 
-              <li class="justify-text">I consolidated my merge, stitch, and pre-process scripts into a single script that takes few initial 
+  <p class="justify-text"><strong> Results </strong></p>
+  <ol> 
+      <li class="justify-text">I consolidated my merge, stitch, and pre-process scripts into a single script that takes few initial 
                   parameters and automates these steps by chaining their inputs and outputs (<strong><a href="https://github.com/EdRey05/Resources_for_Mulligan_Lab/blob/main/Tools%20for%20students/Eduardo%20Reyes/04-Image_Processing_SYTTMZ_automated_PLA.py">See script</a></strong>). </li>
-              <li class="justify-text">The only manual parts left are to select the areas (cells) of interest, and the analysis of the results
+      <li class="justify-text">The only manual parts left are to select the areas (cells) of interest, and the analysis of the results
                   in GraphPad prism. Everything else has been succesfully automated, most scripts take several <strong>input parameters</strong> 
                   that allow <strong>reusability</strong> and some other parts of the code are <strong>flexible enough for fine-tunning</strong> 
                   (<strong>more/less channels, slices, FOVs, areas, etc.</strong>). </li>
-              <li class="justify-text">Approximately <strong>10,000 images</strong> of individual cells were analyzed (<strong>6 different 
+      <li class="justify-text">Approximately <strong>10,000 images</strong> of individual cells were analyzed (<strong>6 different 
                   interactions, 7 experimental groups each</strong>). </li>
-              <li class="justify-text">This box plot (→) has the <strong>same data as the dot plot above</strong>, but shows the statistical 
+      <li class="justify-text">The box plot below has the <strong>same data as the dot plot above</strong>, but shows the statistical 
                   analysis results and the dotted line is the additional threshold I used in my experiments (20 normalized puncta per cell) to 
                   consider a real interaction result given the background signal. In all groups, images of 140-270 individual cells were 
                   quantified. </li>
-              <li class="justify-text"><strong>More data/results can't be shared at the moment</strong>. The other protein candidates identified 
+      <li class="justify-text"><strong>More data/results can't be shared at the moment</strong>. The other protein candidates identified 
                   through these experiments will be published in the next few years, as they are part of ongoing projects. Most of my PLA 
                   experiments were done in 2022 and I was able to publish them all before I graduated in Sept 2023. </li>
-            </ol>
-      </div>
-      <div class="right-column-50">
+  </ol>
+  <div class="two-columns">
+      <div class="left-column-50">
           <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/25da16e5-a2da-4682-a921-7ad4680f17e9" alt="CRK Box plot" />
       </div>
+      <div class="right-column-50">
+          <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/22983a74-0c9b-495a-941c-7d2f89fb71f2" alt="CRK cell images" />
+      </div>
   </div>
-  <br>
+  <br>  
   <p><strong> Check the Github page showcasing some of the scripts mentioned here: <a href="https://edrey05.github.io/Resources_for_Mulligan_Lab/">PLA ImageJ scripts</a></strong></p>
   <p><strong> Check the Streamlit data app I made here: <a href="https://github.com/EdRey05/Streamlit_projects/tree/main/002_Automated_PPTX_PLA">Demo_PLA_PPTX</a></strong></p>
 </details>
