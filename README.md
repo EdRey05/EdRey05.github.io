@@ -97,7 +97,7 @@
                             quantification in ImageJ/Fiji</strong>. Due to the large number of images acquired, I wrote <strong>Python 
                             scripts</strong> to <strong>automate</strong> some steps of the workflow or speed up others. <br><br>
                             Using these tools, I was able to <strong>identify 2 protein candidates</strong> that showed the behavior 
-                            of interest (see figure for CRK). These and future findings using my workflow provide valuable insights
+                            of interest (see figure for CRK→). These and future findings using my workflow provide valuable insights
                             that can be translated into <strong>therapeutic strategies</strong>.
     </p> 
   </div>
@@ -174,18 +174,22 @@
       <li class="justify-text">I consolidated my merge, stitch, and pre-process scripts into a single script that takes few initial 
                   parameters and automates these steps by chaining their inputs and outputs (<strong><a href="https://github.com/EdRey05/Resources_for_Mulligan_Lab/blob/main/Tools%20for%20students/Eduardo%20Reyes/04-Image_Processing_SYTTMZ_automated_PLA.py">See script</a></strong>). </li>
       <li class="justify-text">The only manual parts left are to select the areas (cells) of interest, and the analysis of the results
-                  in GraphPad prism. Everything else has been succesfully automated, most scripts take several <strong>input parameters</strong> 
-                  that allow <strong>reusability</strong> and some other parts of the code are <strong>flexible enough for fine-tunning</strong> 
-                  (<strong>more/less channels, slices, FOVs, areas, etc.</strong>). </li>
+                  since my research group uses <strong>GraphPad Prism</strong>. Everything else has been <strong>succesfully automated
+                  </strong>, most scripts take several <strong>input parameters</strong> that allow <strong>reusability</strong> and 
+                  crucial parts of the code are <strong>flexible enough for fine-tunning</strong> (<strong>more/less channels, slices, 
+                  FOVs, areas, etc.</strong>). </li>
       <li class="justify-text">Approximately <strong>10,000 images</strong> of individual cells were analyzed (<strong>6 different 
                   interactions, 7 experimental groups each</strong>). </li>
-      <li class="justify-text">The box plot below has the <strong>same data as the dot plot above</strong>, but shows the statistical 
-                  analysis results and the dotted line is the additional threshold I used in my experiments (20 normalized puncta per cell) to 
-                  consider a real interaction result given the background signal. In all groups, images of 140-270 individual cells were 
-                  quantified. </li>
-      <li class="justify-text"><strong>More data/results can't be shared at the moment</strong>. The other protein candidates identified 
-                  through these experiments will be published in the next few years, as they are part of ongoing projects. Most of my PLA 
-                  experiments were done in 2022 and I was able to publish them all before I graduated in Sept 2023. </li>
+      <li class="justify-text"><strong>CRK was identified</strong> as a protein <strong>interacting with mutant RET receptors</strong> 
+                  found in thyroid cancers <strong>but not with normal reecptors</strong>. The box plot below has the <strong>same data 
+                  as the dot plot above</strong>, but shows the statistical analysis results and the dotted line is the additional 
+                  threshold I used in my experiments (20 normalized puncta per cell) to consider a real interaction result given the 
+                  background signal. All groups in this plot have sample sizes in the range of 140-270 (individual cell images). </li>
+      <li class="justify-text"><strong>More details and data can't be shared at the moment</strong>. The final version of this figure as 
+                  well as the figures for the other protein interactions I evaluated are temporarily restricted as they are part of 
+                  ongoing projects. Most of my PLA experiments were done in 2022 butI wasn't able to publish them all before I graduated 
+                  in Sept 2023 (my thesis will be made available to the public in Dec 2028). This restriction is to allow my former 
+                  research group to use the data in manuscripts for publication.</li>
   </ol>
   <div class="two-columns">
       <div class="left-column-50">
