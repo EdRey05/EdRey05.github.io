@@ -3,13 +3,14 @@
 
 <h2 class="center-text"> Patient survival analysis by Kaplan-Meier estimates </h2>
 
+<p><strong> Summary </strong></p>
+<p class="justify-text"> Coming soon!. </p>
 <div class="two-columns">
   <div class="left-column-50">
-    <p><strong> Summary </strong></p>
-    <p class="justify-text"> Coming soon!. </p>
+      <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/d0f46a9e-4182-4db6-8123-09bf538647e3" alt="Streamlit Projects GIF" />
   </div>   
   <div class="right-column-50">
-    <!--<img src="Images_GIFs_Videos/Streamlit_Projects_003.gif" alt="Streamlit Projects GIF" />-->
+      <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/0f663e11-96a5-40e8-a26d-afebb08d3bab" alt="Streamlit Projects GIF" />
   </div>
 </div>
 <details><summary markdown="span"><strong> Expand this to read more... </strong></summary>
