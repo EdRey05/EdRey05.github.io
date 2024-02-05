@@ -1,0 +1,86 @@
+---
+---
+
+@import "{{ site.theme }}"; // Define your custom variable values before this line if the main theme scss file references to variables.scss
+
+@include large {
+  .page-header {
+    padding: 2rem 6rem; // Reduced the top and bottom padding to 2rem
+  }
+}
+
+// Overriding container width to use more of the viewport width
+.main-content {
+  max-width: 100%;  
+  margin: auto;
+  kbd {
+    background-color: #e1e1e2;
+  }
+  hr {
+    height: 10px;
+  }
+}
+
+// Styles for two-column layout
+.two-columns {
+  display: flex;
+  width: 100%;
+}
+
+.left-column-35 {
+  flex: 35%;
+  padding-right: 35px; // Adjust spacing as needed
+}
+
+.right-column-65 {
+  flex: 65%;
+}
+
+.left-column-50 {
+  flex: 50%;
+  padding-right: 25px; // Adjust spacing as needed
+}
+
+.right-column-50 {
+  flex: 50%;
+  padding-left: 25px;
+}
+
+// Ensure full-width sections are not affected
+details > summary {
+  width: 100%;
+}
+
+// Responsive adjustments for smaller screens
+@media screen and (max-width: 768px) {
+  .two-columns, .left-column-35, .right-column-65, .left-column-50, .right-column-50 {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+}
+
+// Make the expandable sections work
+details > summary {
+  cursor: pointer;
+  color: #0366d6; /* GitHub's link color for consistency */
+}
+
+details > summary::before {
+  content: '▶▶';
+  padding-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+// Justify text for elements with the 'justify-text' class
+.justify-text {
+  text-align: justify;
+}
+
+// Center text for elements with the 'center-text' class
+.center-text {
+  text-align: center;
+}
