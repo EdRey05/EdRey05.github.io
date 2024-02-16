@@ -12,7 +12,7 @@
                             gene expression of CRISPR-Cas9 knock-out</strong> cell models, protein-protein interactions, etc. <br><br>
                             To add more information to this study, I took a list of our top genes of interest and evaluated whether there
                             was any <strong>apparent clinical similarity with our synthetic lethality finding</strong>s. I retrieved 
-                            clinical and RNA Seq gene expressn data from a breast cancer study (<strong>METABRIC</strong>), and generated 
+                            clinical and RNA Seq gene expression data from a breast cancer study (<strong>METABRIC</strong>), and generated 
                             <strong>Kaplan-Meier</strong> survival curves for ER+ patients, where RET is not the driver gene, but its 
                             expression can enhance tumor progression. <br><br>
                             I divided the dataset into <strong>4 groups</strong> according to the expression of RET and one other gene at 
@@ -25,6 +25,7 @@
                             of KM plots that will allow to explore other diseases/trials. </p>
   </div>   
   <div class="right-column-50">
+    <br>
     <img src="https://github.com/EdRey05/EdRey05.github.io/assets/62916582/c7db9066-1c19-42d9-a51b-a8b851176669" alt="RET_GRK7" />
   </div>
 </div>
@@ -34,28 +35,30 @@
       cell assays (based on fitness scores and p-values). This indicates that <strong>cancer cells died when a pair 
       of RET-gene were knocked down, while healthy cells remained unaffected</strong>. In addition, this <strong>only 
       occurs when the two selected genes are "removed" together</strong>, whereas "removing" only one of them or 
-      leaving both intact does not kill the cancer cells. I retrieved the <strong><a href="https://www.cbioportal.org/study/summary?id=brca_metabric">METABRIC</a></strong> dataset deposited in cBioPortal, filtered it to keep the ER+ patients marked as dying from disease (cancer), 
-      and used the <strong>KaplanMeierFitter</strong> module from the <strong>lifelines</strong> python library. </p>
+      leaving both intact does not kill the cancer cells. For this purpose, I retrieved the <strong><a href="https://www.cbioportal.org/study/summary?id=brca_metabric">METABRIC</a></strong> dataset deposited in cBioPortal, filtered it to keep the ER+ patients marked as dying from disease (cancer), and subdivided the data into
+      four groups for a single gene pair as mentioned above. Survival curves for each of the subdatasets was then 
+      calculated using the <strong>KaplanMeierFitter</strong> module from the <strong>lifelines</strong> python library. 
+      This process was repeated to create KM plots for each RET-gene pair, where I used one of the ~1k genes that show
+      synthetic lethality. All the resulting plots were reviewed and the ones showing the behavior of interest were
+      analyzed (10 of them).
+  </p>
   <div class="two-columns">
     <div class="left-column-50">
       <p class="justify-text"><strong> Problems </strong></p>
       <ul> 
-        <li class="justify-text">A. </li>
-        <li class="justify-text">B. </li>
-        <li class="justify-text">C. </li>
-        <li class="justify-text">D. </li>
-        <li class="justify-text">E. </li>
-        <li class="justify-text">F. </li>
+        <li class="justify-text">We needed to retrieve clinical and gene expression data from a breast cancer trial. </li>
+        <li class="justify-text">We needed to generate over 1,000 plots to screen RET-gene pairs. </li>
+        <li class="justify-text">Once we identified the 10 candidates, we needed to do complimentary survival analyses to evaluate other features. </li>
       </ul>
     </div>
     <div class="right-column-50">
       <p class="justify-text"><strong> Solutions </strong></p>
         <ul> 
-          <li class="justify-text">A. </li>
-          <li class="justify-text">B. </li>
-          <li class="justify-text">C. </li>
-          <li class="justify-text">D. </li>
-          <li class="justify-text">E. </li>
+          <li class="justify-text">I found the -METABRIC- clinical trial which has survival and gene expression data of over 2,000 patients. </li>
+          <li class="justify-text">I made Jupyter notebook tools (<strong>
+            <a href="https://github.com/EdRey05/Resources_for_Mulligan_Lab/blob/main/Tools%20for%20students/Eduardo%20Reyes/06_METABRIC_KM_Plot_Synthetic_Letality_Batch_%5BColab%5D.ipynb">
+              see Tool 3</a></strong>) to automate the generation of KM plots using the same data processing and varying the gene name to be used. </li>
+          <li class="justify-text">I generated a Streamlit data app that allows quick and interactive generation of KM plots with user-selected features. </li>
         </ul>
     </div>
   </div>
